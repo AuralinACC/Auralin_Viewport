@@ -5,5 +5,6 @@ SlashCmdList["AVP"] = function()
         MainMenuFrame:Hide()
     else
         MainMenuFrame:Show()
+        UpdateSlidersWithCurrentSettings()
     end
 end
