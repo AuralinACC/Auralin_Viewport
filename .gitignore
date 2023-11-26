@@ -1,0 +1,10 @@
+# Ignore all files
+*
+
+# Except these files types
+!*.lua
+!*.toc
+
+# Also include these files
+!.gitignore
+!README.md
