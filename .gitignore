@@ -8,3 +8,4 @@
 # Also include these files
 !.gitignore
 !README.md
+!LICENSE
