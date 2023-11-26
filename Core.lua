@@ -36,12 +36,4 @@ eventFrame:SetScript("OnEvent", function(self, event, addonName)
     UpdateWorldFrame()
 end)
 
--- Add a slash command for showing/hiding the options menu
-SLASH_AVP1 = "/avp"
-SlashCmdList["AVP"] = function()
-    if MyFrameName:IsShown() then
-        MyFrameName:Hide()
-    else
-        MyFrameName:Show()
-    end
-end
+
