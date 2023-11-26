@@ -5,4 +5,6 @@
 ## SavedVariables: Auralin_Viewport_Settings
 
 Core.lua
+MenuConfig.lua
 Config.lua
+EventHandling.lua
