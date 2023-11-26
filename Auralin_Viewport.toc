@@ -1,0 +1,8 @@
+## Interface: 100105
+## Title: Auralin_ViewPort
+## Author: Auralin
+## DefaultState: enabled
+## SavedVariables: Auralin_Viewport_Settings
+
+Core.lua
+Config.lua
