@@ -1,5 +1,5 @@
 -- Create a frame
-local frame = CreateFrame("Frame", "MyFrameName", UIParent, "BasicFrameTemplateWithInset")
+local frame = CreateFrame("Frame", "MainMenuFrame", UIParent, "BasicFrameTemplateWithInset")
 frame:SetSize(300, 400)
 frame:SetPoint("CENTER")
 frame:Hide()  -- Hide the frame by default
