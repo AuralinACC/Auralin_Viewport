@@ -11,12 +11,12 @@ function UpdateSlidersWithCurrentSettings()
         AuralinVP.leftSlider:SetValue(ViewPort.left)
         AuralinVP.rightSlider:SetValue(ViewPort.right)
         AuralinVP.bottomSlider:SetValue(ViewPort.bottom)
-        -- Update the displayed values
-        AuralinVP.topSlider.value:SetText(ViewPort.top)
-        AuralinVP.leftSlider.value:SetText(ViewPort.left)
-        AuralinVP.rightSlider.value:SetText(ViewPort.right)
-        AuralinVP.bottomSlider.value:SetText(ViewPort.bottom)
     end
+    -- Update the displayed values
+    AuralinVP.topSlider.value:SetText(ViewPort.top)
+    AuralinVP.leftSlider.value:SetText(ViewPort.left)
+    AuralinVP.rightSlider.value:SetText(ViewPort.right)
+    AuralinVP.bottomSlider.value:SetText(ViewPort.bottom)
 end
 
 -- Update the displayed top value when the slider value changes
