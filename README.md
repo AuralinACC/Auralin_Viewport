@@ -36,6 +36,7 @@ This addon is released under the [MIT License](LICENSE).
 
 ## Acknowledgements
 Special thanks to the World of Warcraft addon community for their support and contributions.
+Thank you to sp00n for suggesting a fix to the WorldFrame resetting after certain cut scenes. 
 
 ## Contact
 For support or inquiries, please contact Auralin#1305 on B.net or auralin on Discord.
