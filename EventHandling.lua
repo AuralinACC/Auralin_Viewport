@@ -6,10 +6,19 @@ eventFrame:RegisterEvent("PLAYER_ENTERING_WORLD")
 -- Register the ADDON_LOADED event
 eventFrame:RegisterEvent("ADDON_LOADED")
 
+--@debug@
+-- Register the CINEMATIC_STOP event
+eventFrame:RegisterEvent("CINEMATIC_STOP")
+--@end-debug@
+
 eventFrame:SetScript("OnEvent", function(self, event)
     if event == "PLAYER_ENTERING_WORLD" then
         -- Call a function to update the sliders.
         UpdateSlidersWithCurrentSettings()
+        --@debug@
+    elseif event == "CINEMATIC_STOP" then 
+        UpdateWorldFrame()
+        --@end-debug@
     end
 end)
 
